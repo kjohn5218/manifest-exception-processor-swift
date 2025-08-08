@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Open Manifest Exception Processor</title>
+    <meta http-equiv="refresh" content="0; url=http://localhost:8080">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #f0f8ff;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            display: inline-block;
+            margin: 50px;
+        }
+        h1 { color: #2d3748; margin-bottom: 20px; }
+        .status { color: #38a169; font-size: 1.2em; margin: 20px 0; }
+        .links { margin: 30px 0; }
+        .link {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            display: inline-block;
+            margin: 10px;
+            font-weight: 600;
+        }
+        .instructions {
+            background: #fff5cd;
+            border: 1px solid #f6e05e;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            color: #744210;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Manifest Exception Processor</h1>
+        <div class="status">Redirecting to web application...</div>
+        <div class="status">If redirect doesn't work, click below:</div>
+        
+        <div class="links">
+            <a href="http://localhost:8080" class="link" target="_blank">
+                🌐 Open Web App
+            </a>
+            <a href="http://127.0.0.1:8080" class="link" target="_blank">  
+                🔧 Alternative Link
+            </a>
+        </div>
+
+        <div class="instructions">
+            <h3>📋 If Links Don't Work:</h3>
+            <ol>
+                <li><strong>Copy URL:</strong> http://localhost:8080</li>
+                <li><strong>Open browser manually</strong> (Safari, Chrome, Firefox)</li>
+                <li><strong>Paste URL</strong> in address bar</li>
+                <li><strong>Press Enter</strong></li>
+            </ol>
+            
+            <h3>🔧 Alternative Options:</h3>
+            <ul>
+                <li><strong>Command Line:</strong> <code>swift run manifest-processor</code></li>
+                <li><strong>iOS App:</strong> Open <code>ManifestExceptionProcessor.xcodeproj</code></li>
+                <li><strong>Demo Mode:</strong> <code>./demo-mode.swift</code></li>
+            </ul>
+        </div>
+
+        <div class="status">
+            <strong>Server Status:</strong> Running on Port 8080 ✅
+        </div>
+    </div>
+
+    <script>
+        // Try multiple methods to open the web app
+        setTimeout(function() {
+            console.log('🚀 Attempting to open web application...');
+            
+            // Method 1: Direct redirect
+            window.location.href = 'http://localhost:8080';
+            
+            // Method 2: Open in new window after delay
+            setTimeout(function() {
+                window.open('http://localhost:8080', '_blank');
+            }, 2000);
+            
+        }, 1000);
+    </script>
+</body>
+</html>
