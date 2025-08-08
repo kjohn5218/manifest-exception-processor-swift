@@ -1,0 +1,11 @@
+🚀 Starting Enhanced Manifest Exception Processor
+📡 Server: http://localhost:8182
+📄 Ready for PDF uploads with professional results reporting
+🔧 Enhanced reporting mode with detailed exception analysis
+ * Serving Flask app 'stable_web_app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8182
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [08/Aug/2025 16:09:00] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2025 16:09:04] "POST /process HTTP/1.1" 200 -
